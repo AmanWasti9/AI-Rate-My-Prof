@@ -1,0 +1,744 @@
+{
+  "professors": [
+    {
+      "id": 2,
+      "name": "Dr. Jane Smith",
+      "department": "Mathematics",
+      "university": "XYZ University",
+      "overall_rating": 4.3,
+      "reviews": [
+        {
+          "review_id": 103,
+          "student_name": "Charlie Brown",
+          "rating": 4,
+          "comment": "Explains well, but can be a bit fast-paced."
+        },
+        {
+          "review_id": 104,
+          "student_name": "David Clark",
+          "rating": 4.5,
+          "comment": "Very helpful during office hours."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "MATH101",
+          "course_name": "Calculus I",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "MATH202",
+          "course_name": "Linear Algebra",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 70,
+        "neutral": 25,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.1
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.2
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.3
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 65,
+            "neutral": 30,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 68,
+            "neutral": 27,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 70,
+            "neutral": 25,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Johnson",
+      "department": "Biology",
+      "university": "XYZ University",
+      "overall_rating": 4.8,
+      "reviews": [
+        {
+          "review_id": 105,
+          "student_name": "Eve Turner",
+          "rating": 5,
+          "comment": "Amazing lectures! Very passionate about the subject."
+        },
+        {
+          "review_id": 106,
+          "student_name": "Frank Martin",
+          "rating": 4.8,
+          "comment": "Very knowledgeable and approachable."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "BIO101",
+          "course_name": "Introduction to Biology",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "BIO202",
+          "course_name": "Genetics",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 85,
+        "neutral": 10,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.7
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.8
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.8
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 82,
+            "neutral": 13,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 84,
+            "neutral": 11,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 85,
+            "neutral": 10,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Dr. Michael Lee",
+      "department": "Physics",
+      "university": "XYZ University",
+      "overall_rating": 4.5,
+      "reviews": [
+        {
+          "review_id": 107,
+          "student_name": "George Hall",
+          "rating": 4.7,
+          "comment": "Challenging but rewarding courses."
+        },
+        {
+          "review_id": 108,
+          "student_name": "Hannah Scott",
+          "rating": 4.3,
+          "comment": "Good professor, but the material is tough."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "PHYS101",
+          "course_name": "General Physics",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "PHYS202",
+          "course_name": "Quantum Mechanics",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 75,
+        "neutral": 20,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.4
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.5
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.5
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 72,
+            "neutral": 23,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 74,
+            "neutral": 21,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 75,
+            "neutral": 20,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Dr. Laura Williams",
+      "department": "Chemistry",
+      "university": "XYZ University",
+      "overall_rating": 4.2,
+      "reviews": [
+        {
+          "review_id": 109,
+          "student_name": "Ian Phillips",
+          "rating": 4.1,
+          "comment": "Good explanations, but the labs are intense."
+        },
+        {
+          "review_id": 110,
+          "student_name": "Jack Taylor",
+          "rating": 4.3,
+          "comment": "Enjoyed the classes, but the workload is heavy."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "CHEM101",
+          "course_name": "General Chemistry",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "CHEM202",
+          "course_name": "Organic Chemistry",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 65,
+        "neutral": 30,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.0
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.1
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.2
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 60,
+            "neutral": 35,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 63,
+            "neutral": 32,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 65,
+            "neutral": 30,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dr. Robert Evans",
+      "department": "History",
+      "university": "XYZ University",
+      "overall_rating": 4.6,
+      "reviews": [
+        {
+          "review_id": 111,
+          "student_name": "Karen Parker",
+          "rating": 4.8,
+          "comment": "Incredible lecturer with deep knowledge of the subject."
+        },
+        {
+          "review_id": 112,
+          "student_name": "Laura White",
+          "rating": 4.4,
+          "comment": "Very engaging, but the readings are extensive."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "HIST101",
+          "course_name": "World History",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "HIST202",
+          "course_name": "Modern European History",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 78,
+        "neutral": 17,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.5
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.6
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.6
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 75,
+            "neutral": 20,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 77,
+            "neutral": 18,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 78,
+            "neutral": 17,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Dr. Susan Miller",
+      "department": "Economics",
+      "university": "XYZ University",
+      "overall_rating": 4.9,
+      "reviews": [
+        {
+          "review_id": 113,
+          "student_name": "Mark Wilson",
+          "rating": 5,
+          "comment": "Best professor I've ever had. Very inspiring!"
+        },
+        {
+          "review_id": 114,
+          "student_name": "Nina Adams",
+          "rating": 4.8,
+          "comment": "Excellent at making complex concepts easy to understand."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "ECON101",
+          "course_name": "Microeconomics",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "ECON202",
+          "course_name": "Macroeconomics",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 90,
+        "neutral": 7,
+        "negative": 3
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.8
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.9
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.9
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 88,
+            "neutral": 9,
+            "negative": 3
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 89,
+            "neutral": 8,
+            "negative": 3
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 90,
+            "neutral": 7,
+            "negative": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Dr. James Brown",
+      "department": "Philosophy",
+      "university": "XYZ University",
+      "overall_rating": 4.0,
+      "reviews": [
+        {
+          "review_id": 115,
+          "student_name": "Olivia Martin",
+          "rating": 4.2,
+          "comment": "Interesting lectures, but the assignments are tough."
+        },
+        {
+          "review_id": 116,
+          "student_name": "Paul Thompson",
+          "rating": 3.8,
+          "comment": "Good professor, but the grading is harsh."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "PHIL101",
+          "course_name": "Introduction to Philosophy",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "PHIL202",
+          "course_name": "Ethics",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 60,
+        "neutral": 30,
+        "negative": 10
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.0
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.0
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.0
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 58,
+            "neutral": 32,
+            "negative": 10
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 59,
+            "neutral": 31,
+            "negative": 10
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 60,
+            "neutral": 30,
+            "negative": 10
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "Dr. Alice Davis",
+      "department": "Psychology",
+      "university": "XYZ University",
+      "overall_rating": 4.4,
+      "reviews": [
+        {
+          "review_id": 117,
+          "student_name": "Rachel Moore",
+          "rating": 4.6,
+          "comment": "Engaging lectures, but the exams are difficult."
+        },
+        {
+          "review_id": 118,
+          "student_name": "Steven Walker",
+          "rating": 4.2,
+          "comment": "Good professor, but sometimes a bit unclear."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "PSY101",
+          "course_name": "Introduction to Psychology",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "PSY202",
+          "course_name": "Cognitive Psychology",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 68,
+        "neutral": 27,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.3
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.4
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.4
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 66,
+            "neutral": 29,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 67,
+            "neutral": 28,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 68,
+            "neutral": 27,
+            "negative": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Dr. Benjamin Thomas",
+      "department": "Political Science",
+      "university": "XYZ University",
+      "overall_rating": 4.1,
+      "reviews": [
+        {
+          "review_id": 119,
+          "student_name": "Sophia Harris",
+          "rating": 4.3,
+          "comment": "Very knowledgeable, but the lectures can be a bit dry."
+        },
+        {
+          "review_id": 120,
+          "student_name": "William Clark",
+          "rating": 3.9,
+          "comment": "Good professor, but the assignments are unclear."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "POL101",
+          "course_name": "Introduction to Political Science",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "POL202",
+          "course_name": "International Relations",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 62,
+        "neutral": 30,
+        "negative": 8
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.0
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.1
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.1
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 60,
+            "neutral": 32,
+            "negative": 8
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 61,
+            "neutral": 31,
+            "negative": 8
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 62,
+            "neutral": 30,
+            "negative": 8
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Dr. Linda Wilson",
+      "department": "Computer Science",
+      "university": "XYZ University",
+      "overall_rating": 4.7,
+      "reviews": [
+        {
+          "review_id": 121,
+          "student_name": "James Martinez",
+          "rating": 4.9,
+          "comment": "Very clear and organized. Makes programming fun."
+        },
+        {
+          "review_id": 122,
+          "student_name": "Emma Garcia",
+          "rating": 4.5,
+          "comment": "Great professor, but the projects are challenging."
+        }
+      ],
+      "courses_taught": [
+        {
+          "course_code": "CS101",
+          "course_name": "Introduction to Programming",
+          "semester": "Fall 2023"
+        },
+        {
+          "course_code": "CS202",
+          "course_name": "Data Structures",
+          "semester": "Spring 2024"
+        }
+      ],
+      "sentiment_analysis": {
+        "positive": 80,
+        "neutral": 15,
+        "negative": 5
+      },
+      "trends": {
+        "rating_over_time": [
+          {
+            "semester": "Fall 2022",
+            "average_rating": 4.6
+          },
+          {
+            "semester": "Spring 2023",
+            "average_rating": 4.7
+          },
+          {
+            "semester": "Fall 2023",
+            "average_rating": 4.7
+          }
+        ],
+        "sentiment_over_time": [
+          {
+            "semester": "Fall 2022",
+            "positive": 78,
+            "neutral": 17,
+            "negative": 5
+          },
+          {
+            "semester": "Spring 2023",
+            "positive": 79,
+            "neutral": 16,
+            "negative": 5
+          },
+          {
+            "semester": "Fall 2023",
+            "positive": 80,
+            "neutral": 15,
+            "negative": 5
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+    "professors": [
+        {
+            "name": "Muhammad Nadeem",
+            "description": "Assistant Professor",
+            "subject": "Computer Science",
+            "department": "Dhanani School of Science and Engineering",
+            "university": "Habib University",
+            "courses_taught": "Application Security, Digital Forensics, Cybersecurity, Algorithm Analysis and Design, Fundamentals of Programming, Data Structures and Algorithms, Software Engineering, Operating Systems ",
+            "id": 13,
+            "reviews": [
+                {
+                    "review_id": 1,
+                    "student_name": "Amanullah",
+                    "rating": 5,
+                    "comment": "Very Best teacher"
+                }
+            ]
+        },
+        {
+            "name": "Omer Nadeem",
+            "description": "Assistant Professor",
+            "subject": "Computer Science",
+            "department": "Dhanani School of Science and Engineering",
+            "university": "Habib University",
+            "courses_taught": "Application Security, Digital Forensics, Cybersecurity, Algorithm Analysis and Design, Fundamentals of Programming, Data Structures and Algorithms, Software Engineering, Operating Systems ",
+            "id": 12
+        },
+        {
+            "name": "Muhammad Asad",
+            "description": "Assistant Professor",
+            "subject": "Computer Science",
+            "department": "Dhanani School of Science and Engineering",
+            "university": "Habib University",
+            "courses_taught": "Application Security, Digital Forensics, Cybersecurity, Algorithm Analysis and Design, Fundamentals of Programming, Data Structures and Algorithms, Software Engineering, Operating Systems ",
+            "id": 14
+        },
+        {
+            "name": "Aatyka Fatima",
+            "description": "Dean\u2019s Fellow, Integrated Sciences and Mathematics",
+            "subject": "Mathematics",
+            "department": "Dhanani School of Science & Engineering",
+            "university": "Habib University",
+            "courses_taught": "Calculus II ",
+            "id": 15,
+            "reviews": [
+                {
+                    "review_id": 1,
+                    "student_name": "Amanullah",
+                    "rating": 5,
+                    "comment": "Best Teacher"
+                }
+            ]
+        },
+        {
+            "name": "Neelma Bhatti",
+            "description": "Assistant Program Director CS, Assistant Professor, Computer Science",
+            "subject": "Computer Science",
+            "department": "Dhanani School of Science & Engineering",
+            "university": "Habib University",
+            "courses_taught": "Programming Fundamentals (C++), Software Engineering Project Management, Visual Programming (VB.Net), Introduction to Information Technology ",
+            "id": 16,
+            "reviews": [
+                {
+                    "review_id": 1,
+                    "student_name": "Aman",
+                    "rating": 5,
+                    "comment": "Great Teacher"
+                }
+            ]
+        },
+        {
+            "name": "Andrew Ng",
+            "description": "Globally recognized leader in AI (Artificial Intelligence). Founder of DeepLearning.AI, Founder & CEO of Landing AI, General Partner at AI Fund, Chairman and Co-Founder of Coursera and an Adjunct Professor at Stanford University\u2019s Computer Science Department.",
+            "subject": "AI (Artificial Intelligence), Machine Learning, Robotics",
+            "department": "Computer Science",
+            "university": "Stanford University",
+            "courses_taught": "Machine Learning Specialization, Machine Learning Engineering for Production (MLOps) Specialization, Deep Learning Specialization, AI For Everyone ",
+            "id": 17,
+            "reviews": [
+                {
+                    "review_id": 1,
+                    "student_name": "Aliza",
+                    "rating": 5,
+                    "comment": "Good Teacher"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Ensure logo and menu button are on opposite ends */
+  align-items: center;
+  padding: 10px;
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--nav-hover-color);
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+  background-color: var(--nav-hover-color);
+}
+
+.nav-toggle {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: auto; /* Pushes the button to the end */
+}
+
+.cta-button {
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button.secondary {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+.cta-button.secondary:hover {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background-color);
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 100%;
+    display: none;
+    padding: 10px 0;
+  }
+
+  .nav-item {
+    margin: 10px 0;
+  }
+
+  .nav.active .nav-list {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .nav-toggle {
+    display: none;
+  }
+}

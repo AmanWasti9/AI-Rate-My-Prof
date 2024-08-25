@@ -1,0 +1,103 @@
+.about {
+  background-color: var(--background-color);
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.about-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.info-item {
+  background-color: var(--info-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex: 1;
+  min-width: 250px;
+}
+
+.info-heading {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.info-text {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 1.5rem;
+  }
+
+  .about-description {
+    font-size: 1rem;
+  }
+
+  .info-heading {
+    font-size: 1.2rem;
+  }
+
+  .info-text {
+    font-size: 0.9rem;
+  }
+}
+
+@keyframes missileAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animated-icon {
+  animation: missileAnimation 1s ease-in-out infinite;
+}
+
+.icon {
+  display: block; /* Make the icon a block element */
+  font-size: 2rem; /* Adjust the size of the icon */
+  margin: 0 auto 10px; /* Center the icon and add space below */
+  animation: bounce 1s infinite; /* Apply the bounce animation */
+}
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

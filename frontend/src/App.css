@@ -1,0 +1,27 @@
+:root {
+  --background-color: #fdf5e6;
+  --primary-color: black;
+  --text-color: black;
+  --nav-hover-color: #fdf5e6;
+  /* --nav-hover-color: #caccfa; */
+}
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.loader {
+  width: 20px;
+  aspect-ratio: 4;
+  background: radial-gradient(circle closest-side, #000 90%, #0000) 0 /
+    calc(100% / 3) 100% space;
+  clip-path: inset(0 100% 0 0);
+  animation: l1 1s steps(4) infinite;
+}
+@keyframes l1 {
+  to {
+    clip-path: inset(0 -34% 0 0);
+  }
+}
