@@ -1,52 +1,45 @@
 version = "1"
 
+# Backend setup and dependencies installation
 [phases.backend-setup]
-# Setup backend dependencies
 commands = [
     "pip install -r backend/requirements.txt"
 ]
 
+# Frontend setup and dependencies installation
 [phases.frontend-setup]
-# Setup frontend dependencies
 commands = [
     "npm install --prefix frontend"
 ]
 
+# Frontend build process
 [phases.frontend-build]
-# Build frontend assets if necessary
 commands = [
     "npm run build --prefix frontend"
 ]
 
-[phases.backend-start]
-# Start the backend
+# Combined start command for both backend and frontend
+[phases.start]
 commands = [
-    "python backend/server.py"
+    "python backend/server.py & npm start --prefix frontend"
 ]
 
-[phases.frontend-start]
-# Start the frontend
-commands = [
-    "npm start --prefix frontend"
-]
-
-# Specify environment variables
+# Environment variables (optional)
 [env]
-# Add any environment variables for the backend here
 FLASK_ENV = "production"
 PORT = "8000"
 
-# Specify the backend language and version (Python)
+# Specify the backend language (Python)
 [language.backend]
 name = "python"
 version = "3.10"
 
-# Specify the frontend language and version (Node.js)
+# Specify the frontend language (Node.js)
 [language.frontend]
 name = "node"
 version = "16"
 
-# Additional packages or system dependencies
+# Additional packages (optional)
 [packages]
 list = [
     "git",
