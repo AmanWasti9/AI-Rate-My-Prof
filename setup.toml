@@ -1,0 +1,40 @@
+version = "1"
+
+# Define the phases of the build
+[phases.setup]
+# Setup both backend and frontend dependencies
+commands = [
+    "cd backend && pip install -r requirements.txt",
+    "cd frontend && npm install"
+]
+
+[phases.build]
+# Build frontend assets if necessary
+commands = [
+    "cd frontend && npm run build"
+]
+
+[phases.start]
+# Start both the backend and frontend
+commands = [
+    "cd backend && python server.py",
+    "cd frontend && npm start"
+]
+
+# Specify the backend environment variables
+[env]
+# Add any environment variables for the backend here
+FLASK_ENV = "production"
+PORT = "8000"
+
+# Specify the language and version for the backend (Python)
+[language]
+name = "python"
+version = "3.10"
+
+# Additional packages or system dependencies
+[packages]
+list = [
+    "git",
+    "curl"
+]
