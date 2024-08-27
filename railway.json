@@ -14,8 +14,7 @@
     },
     "start": {
       "commands": [
-        "cd backend && python server.py",
-        "cd frontend && npm start"
+        "cd backend && python server.py & cd ../frontend && npm start"
       ]
     }
   },
