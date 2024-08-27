@@ -3,16 +3,19 @@
   "phases": {
     "setup": {
       "commands": [
+        "cd frontend",
         "npm install"
       ]
     },
     "build": {
       "commands": [
+        "cd frontend",
         "npm run build"
       ]
     },
     "start": {
       "commands": [
+        "cd frontend",
         "npx serve -s build"
       ]
     }
