@@ -2,6 +2,7 @@ Flask
 flask-cors
 requests
 langchain
+langchain-community
 langchain-pinecone
 langchain-google-genai
 pinecone-client
