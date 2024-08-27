@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "phases": {
+    "setup": {
+      "commands": [
+        "npm install"
+      ]
+    },
+    "build": {
+      "commands": [
+        "npm run build"
+      ]
+    },
+    "start": {
+      "commands": [
+        "npx serve -s build"
+      ]
+    }
+  },
+  "env": {
+    "PORT": "3000"
+  },
+  "language": {
+    "name": "node",
+    "version": "18"
+  }
+}
