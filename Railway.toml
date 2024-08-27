@@ -8,7 +8,7 @@ setup = [
 
 # Build frontend assets if necessary
 build = [
-    "cd frontend && npm run build"
+    "cd frontend && npm run build",
     "cd backend && python server.py"
 ]
 
